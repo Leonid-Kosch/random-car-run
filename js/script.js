@@ -96,6 +96,7 @@ let speedCar = (car, carWinNumber, historyElement) => {
             choicOne.disabled = false;
             choicTwo.disabled = false;
             clearInterval(goInterval);
+            choic = '';
         }
     }, 5)
 }

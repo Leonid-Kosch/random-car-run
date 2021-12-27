@@ -70,7 +70,7 @@ let speedCar = (car, carWinNumber, historyElement) => {
                 acountSpan.innerHTML = acountNumber;
                 betSpan.innerHTML = betNumber;
                 let historyElementSpan = document.createElement('span');
-                historyElementSpan.innerHTML = ' Победа! Текущий счёт = ' + acountNumber + '.';
+                historyElementSpan.innerHTML = ' Победа! Текущий счёт = ' + acountNumber + '$.';
                 historyElementSpan.classList.add('span_green');
                 historyElement.appendChild(historyElementSpan);
                 betPlus.disabled = false;
@@ -79,7 +79,7 @@ let speedCar = (car, carWinNumber, historyElement) => {
                 betNumber = 0;
                 betSpan.innerHTML = 0;
                 let historyElementSpan = document.createElement('span');
-                historyElementSpan.innerHTML = ' Провал! Текущий счёт = ' + acountNumber + '.';
+                historyElementSpan.innerHTML = ' Провал! Текущий счёт = ' + acountNumber + '$.';
                 historyElementSpan.classList.add('span_red');
                 historyElement.appendChild(historyElementSpan);
                 betPlus.disabled = false;
